@@ -1,0 +1,545 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat' ;
+  background: #f8f9fa;
+  scroll-behavior: smooth;
+}
+*:not(.slick-track):not(.slick-list) {
+    transition: 0.1s;
+}
+.header {
+	height: 100px;
+	width: 100%;
+	background: rgb(62,57,107);
+	position: relative;
+
+}
+
+.header-navbar{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.container {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	z-index: 999;
+}
+.header-navbar-logo-title{
+	color: #fff;
+	font-size: 35px; 
+	margin: -2px;
+	
+}
+ /* start table de bord */
+#table-de-bord {
+	margin-top: 30px;
+	height: 250px;
+	width: 100%;
+	
+	position: relative;
+}
+
+
+.container {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	z-index: 999;
+}
+.avatar-picture {
+	
+	width: 250px;
+	height: 250px;
+	background: #fff;
+	position: absolute;
+	bottom: 1%;
+	top: 15%;
+}
+.stat {
+padding-top: 25px;
+text-align: right;
+padding-right: 30px;
+
+}
+.stat span {
+	font-size: 40px;
+}
+.stat a {
+	margin: 20px;
+	color: #fff;
+	font-size: 14px;
+	width: 7rem;
+	height: 7rem;
+	padding: 2.2rem 1.7rem 0;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	background: rgb(62,57,107);
+	border-radius: 4px;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+.stat a:hover {
+	background: #fff;
+	color: rgb(62,57,107);
+
+
+}
+.avatar-picture >.picture {
+	width: 100%;
+	height: 100%;
+	
+	background-size: contain;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+.picture i{
+	font-size: 200px;
+	text-align: center;
+	padding-left: 30px;
+	padding-top: 20px;
+	color: rgb(62,57,107);
+}
+
+
+ p {
+margin-top:50px;
+text-align: center;
+
+}
+.aside-menu {
+	position: absolute;
+	top: 380px;
+	left: -2%;
+}
+.aside-menu ul {
+	list-style-type : none;
+}
+.aside-menu ul li a  {
+text-decoration: none;
+display: block;
+line-height: 30px;
+color: #333;
+height: 50px;
+font-size: 16px;
+
+}
+.aside-menu ul li a span {
+	display: inline-block;
+	vertical-align: middle;
+}
+.aside-menu ul li a i {
+	position: absolute;
+	padding-top: 5px;
+	right: -3rem;
+	padding-left: 19px;
+	font-size: 24px;
+	display: inline-block;
+
+}
+.aside-menu ul li a:hover {
+	color: rgb(62,57,107);
+}
+
+
+ /* end table de bord */
+
+ /* start progression bar*/
+.progression {
+	position: absolute;
+	padding: 20px 30px;
+	left: 27%;
+	width: 70%;
+	top: 10px;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	
+
+}
+.progression-bar {
+	
+	height: 2rem;
+	border: 1px solid #333;
+	overflow: hidden;
+	border-radius: .5rem;
+}
+.progression h3 {
+	color: #333;
+}
+#level {
+	transform: scaleX(1);
+	background: rgb(62,57,107);
+	height: 100%;
+
+}
+#level:hover {
+	transition: .3s ease;
+}
+.un ol  li a{
+	text-decoration: none;
+	color: #333;
+	line-height: 35px;
+	z-index: 9999;
+}
+.un ol li a:hover {
+	text-decoration: underline;
+	color: rgb(62,57,107);
+}
+.un ol  li a i {
+	margin-left: 20px;
+	font-size: 25px;
+	color: green;
+}
+
+ /* end profression bar */
+.container1 {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	z-index: 999;
+	
+
+}
+.in-etablissement {
+	position: absolute;
+	left:345px;
+	top: 10px;
+	width: 72%;
+}
+#form-etablissement {
+	padding: 0;
+	background: #fff;
+	box-shadow:  0 2px 5px rgba(0,0,0,.2);
+	padding-bottom: 100px;
+	padding-top: 30px;
+}
+#form-etablissement h3 {
+	color: rgb(62,57,107);
+	padding: 0px 10px;
+	font-size: 20px;
+}
+#form-etablissement label {
+	padding: 15px 20px;
+	display: inline-block;
+	width: 50%;
+	
+}
+#form-etablissement input,select {
+	background: #ced4da;
+	display:inline-block;
+    border-radius: 3px;
+    padding: 10px 20px;
+    border: 1px solid #ced4da;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 1rem;
+    color: #495057;
+}
+#form-etablissement select {
+	left: 50%;
+	display: inline-block;
+	border: 1px solid solid rgb(62,57,107);
+	padding: 10px 20px;
+	height: 43px;
+	 box-sizing: border-box;
+	 justify-content:center;
+}
+#form-etablissement textarea {
+	background:#ced4da ;
+	 display: flex;
+	 flex-direction: column;
+	 border-radius: 3px;
+    padding: 10px ;
+    border: 1px solid #ced4da;
+   width: 90%;
+    box-sizing: border-box;
+    height: 43px;
+    outline: none;
+    font-size: 1rem;
+    color: #495057;
+    margin-left: 50px;
+
+}
+#form-etablissement textarea {
+    height: 170px;
+    margin-bottom: 2rem;
+    resize: none;
+}
+ sup {
+    color: rgb(62,57,107);
+}
+.condition {
+	padding-top: 40px;
+	padding-left: 20px;
+}
+.condition a {
+	color: rgb(62,57,107);
+	text-decoration: none;
+}
+.condition a:hover {
+	text-decoration: underline;
+}
+.condition p {
+	padding-top: 20px;
+	color: #333;
+	padding-bottom: 20px;
+
+}
+button.rounded {
+	border: 1px solid white;
+	border-radius: 3px;
+	background: rgb(62,57,107);
+	color: #fff;
+	padding: 15px 20px;
+	font-size: 20px;
+	text-align: right;
+	cursor: pointer;
+	position: absolute;
+	left: 43%;
+	bottom: 25px;
+
+}
+button.rounded:hover {
+	background: #706aab;
+	transition: 1s all ease;
+}
+.suprimer a {
+	text-decoration: none;
+	color: #333;
+
+
+}
+.suprimer a:hover {
+	color: rgb(62,57,107);
+	text-decoration: underline;
+}
+/* start stage */
+.container {
+	width: 90%;
+	margin: auto;
+	position: relative;
+	z-index: 999;
+
+}
+.suggestion {
+	position: absolute;
+	top: 700px;
+	left: 29%;
+	display: inline-block;
+	float: right;
+	width: 71%;
+}
+.suggestion h3 {
+	color: rgb(62,57,107);
+
+}
+.entreprise 
+{
+	position: relative;
+	background: #fff;
+	line-height: 23px;
+	width: 100%;
+	padding-bottom: 90px;
+	padding-top: 20px ;
+	box-shadow:  0 2px 5px rgba(0,0,0,.2);
+}
+.entreprise h3 
+{
+	color: #333;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.entreprise p {
+	padding-left: 25px;
+	color: #333;
+	font-size: 17px;
+}
+.entreprise label
+{
+	padding: 15px 20px;
+	display: inline-block;
+	width: 50%;
+}
+ button.rounded1 {
+	border: 1px solid white;
+	border-radius: 3px;
+	background: rgb(62,57,107);
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 16px;
+	text-align: right;
+	cursor: pointer;
+	position: absolute;
+	top: 60%;
+	left: 40%;
+	outline: none;
+
+}
+
+button.rounded1:hover {
+	background: #706aab;
+	transition: 1s all ease;
+}
+
+/* end stage*/
+
+/* start: footer styles */
+.container2 {
+	position: relative;
+	width: 100%;
+}
+footer {
+	position: absolute;
+	top: 1000px;
+	width: 100%;
+    background:rgb(62,57,107);
+    padding: 8rem 0;
+}
+
+footer .flex {
+
+    padding-bottom: 6rem;
+    border-bottom: 1px solid #777;
+}
+
+footer h5 {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 19px;
+    font-weight: bold;
+}
+footer p {
+	color: #fff;
+}
+
+footer h5.follow-us {
+    margin-top: 1rem;
+}
+
+footer .footer-about {
+    width: 47%;
+}
+
+footer .footer-about p {
+    width: 65%;
+}
+
+footer .footer-quick-links {
+    width: 16%;
+}
+
+footer .footer-quick-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-quick-links ul li {
+    margin: 10px 0;
+}
+
+footer .footer-quick-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-quick-links ul li a:hover {
+    color: #706aab;
+    text-decoration: underline;
+}
+
+footer .footer-subscribe {
+    width: 35%;
+}
+
+#subscribe-container {
+    position: relative;
+}
+
+footer .footer-subscribe input {
+    border-radius: 30px;
+    height: 43px;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 10px;
+    color: #fff;
+    box-sizing: border-box;
+    width: 80%;
+}
+
+footer button.right-rounded {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #fff);
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 30px 9px;
+    line-height: 1.5;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+
+footer button.right-rounded:hover {
+    background: #333;
+    color: #fff;
+}
+
+footer .footer-subscribe ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-subscribe ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+footer .footer-subscribe ul li:first-child {
+    margin-left: 0;
+}
+
+footer .footer-subscribe ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer .footer-subscribe ul li a:hover {
+    color: #706aab;
+}
+
+footer small {
+    margin-top: 3rem;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    color: #fff;
+}
+
+footer small a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer small a:hover {
+    color: #706aab;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   
+      }
+/* end: footer styles */
